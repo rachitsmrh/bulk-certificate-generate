@@ -1,0 +1,49 @@
+.editor_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgb(9, 9, 121);
+  padding: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 7%,
+    rgba(0, 151, 255, 1) 100%
+  );
+}
+
+.editor_head_comp {
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.editor_head_comp > a {
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.editor_head_comp > a:hover {
+  color: #dddd;
+}
+
+.editor_head_comp > img {
+  width: 40px;
+  cursor: pointer;
+  margin: 0px 10px 0px 10px;
+}
+
+.editor_head > h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+}

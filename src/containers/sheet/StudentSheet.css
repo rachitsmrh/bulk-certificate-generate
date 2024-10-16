@@ -1,0 +1,44 @@
+.bulk_uoload {
+  display: none;
+}
+.upload_input {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.upload_input > label {
+  margin-bottom: 10px;
+}
+.upload_input > input::before {
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+
+  cursor: pointer;
+  font-weight: 700;
+}
+.upload_input > input:hover::before {
+  border-color: #444;
+}
+.upload_input > input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.stu_list {
+  color: #fff;
+  font-size: 10pt;
+  margin-top: 16px;
+}
+
+.stu_list_comp {
+  word-break: break-all;
+  background: #444;
+  margin-bottom: 16px;
+  padding: 5px 8px;
+  cursor: pointer;
+}

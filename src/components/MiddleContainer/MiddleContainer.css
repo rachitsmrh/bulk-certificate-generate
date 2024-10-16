@@ -1,0 +1,13 @@
+.middle_div_icon_list {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  background: #222;
+  padding: 1.5rem;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

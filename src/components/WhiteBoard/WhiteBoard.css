@@ -1,0 +1,43 @@
+.student_certificates {
+  margin: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+.editor_white_board {
+  width: 80ch;
+  height: 40ch;
+  background: #fff;
+  box-shadow: -8px -1px 79px 0px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: -8px -1px 79px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: -8px -1px 79px 0px rgba(0, 0, 0, 0.51);
+}
+.certificate {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+  background: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.cert_head > h2 {
+  font-style: italic;
+}
+
+.cert_main > p {
+  color: #666;
+}
+.cert_sign > img {
+  width: 150px;
+}
+
+.cert_head > h2 > mark {
+  background: #fff;
+  color: darkred;
+}
